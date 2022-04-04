@@ -116,40 +116,46 @@ I can't predict the future, but no, the Jaguars will never win the Super Bowl.
 
 Read through the examples in this Data Camp article about [data types and type conversion](https://www.datacamp.com/community/tutorials/python-data-type-conversion). Then, answer the following questions.
 
+* Every value in Python has a data type. Data types are a classification of data that tells the compiler or the interpreter how you want to use the data. The type defines the operations that can be done on the data and the structure in which you want the data to be stored. In data science, you will often need to change the type of your data, so that it becomes easier to use and work with.
+
 #### 1. *Coercion* is another term for which of the following concepts in Python?
+* Implicit conversion or coercion is when data type conversion takes place either during compilation or during run time and is handled directly by Python for you
 
 * a) Encapsulation
 * b) Inheritance
-* c) Explicit type conversion
-* d) Implicit type conversion
+* c) Explicit data type conversion
+# d) Implicit data type conversion
 * e) Floor division
 
 #### 2. *Type casting* is another term for which of the following concepts in Python?
 
 * a) Encapsulation
 * b) Inheritance
-* c) Explicit type conversion
-* d) Implicit type conversion
+# c) Explicit data type conversion
+* d) Implicit data type conversion 
 * e) Floor division
 
 #### 3. What function in Python can we use to check a variable's type?
 
-* a) `type()`
+# a) `type()` - *to check the data type of an object*
 * b) `typeof()`
 * c) `typeof`, but it is an operator not a function
 * d) `get_type()`
 
-#### 4. Which of the following is NOT a primitive data structure?
+#### 4. Which of the following is NOT a primitive data structure? 
 
-* a) Float
-* b) Integer
-* c) List
-* d) String
+* Primitives are building blocks for data manipulation and contain pure, simple values of data. 4 primitives are a,b,d and Boolean
+
+* a) Float(): deals with numbers
+* b) Integer(): deals woth numbers
+#  c) List(): - *NOT a primitive data structure that does store value and a collection of values on various formats like Tuples(), Dict() or Sets()*
+* d) String(): letters, numbers, symbols(characters)
 * e) Both a and c are not primitives
 
 #### 5. According to the article, what is the main reason to convert a tuple into a list?
 
----
+--- *Tuples are immutable so when defined not deletable, editable or addable so if you would like to make changes to the initial tuple can convert them to lists and revert it back to tuples again*
+--- *Also Strings can convert into list or tuple*
 
 ## See Ya Later!
 
